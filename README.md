@@ -61,6 +61,7 @@ Formulario `Crud.aspx?op=C` que inserta un usuario nuevo con el procedimiento `i
  
 <img width="600" alt="Modificar 1" src="https://github.com/user-attachments/assets/b039296a-901f-4e8a-a4ee-d0f3309f866c" />
 <img width="600" alt="Modificar 2" src="https://github.com/user-attachments/assets/0b10edf3-c459-470a-9539-e2c719965273" />
+
 ### Problema #4 – DELETE (eliminación lógica)
 Desde el listado, el botón Eliminar llama a `sp_delete`, que marca el registro con `Anulado = 0` y guarda `FechaEliminacion`. El usuario deja de aparecer en el listado pero no se borra de la base.
  
