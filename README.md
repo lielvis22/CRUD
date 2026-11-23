@@ -33,7 +33,7 @@ El objetivo del laboratorio es aplicar:
  
 ## 👤 Autor y Contexto
  
-- **Nombre:** Elvis Li
+- **Nombre:** Elvis Li - Wilson Wu
 - **Institución:** Universidad Tecnológica de Panamá (UTP) — Facultad de Ingeniería en Sistemas Computacionales, Campus Víctor Levi Sasso
 - **Carrera / Grupo:** Lic. en Ing. de Sistemas y Computación · 1IL133
 - **Asignatura:** Herramientas de la Programación Aplicada III (.NET) — Módulo II: Lenguajes multiplataformas, ASP.NET
