@@ -49,11 +49,13 @@ Formulario `Crud.aspx?op=C` que inserta un usuario nuevo con el procedimiento `i
  
 <img width="600" alt="Crear 1" src="https://github.com/user-attachments/assets/ade13be6-2eba-4083-8cf4-92d30682ddef" />
 <img width="600" alt="Crear 2" src="https://github.com/user-attachments/assets/455946e1-1159-4430-b884-972aba01b4d9" />
+
 ### Problema #2 – READ (listar y consultar)
 `Index.aspx` muestra el listado de usuarios activos en un `GridView` (`sp_load`). `Crud.aspx?op=R` consulta un usuario por su id con los campos bloqueados (`sp_read`).
  
 <img width="600" alt="Listar" src="https://github.com/user-attachments/assets/b61489d5-8d9d-473a-9d84-397ffd81f75d" />
 <img width="600" alt="Consultar" src="https://github.com/user-attachments/assets/ce9a041b-c78f-485c-a62a-10873efdd92e" />
+
 ### Problema #3 – UPDATE (modificar registro)
 `Crud.aspx?op=U` carga los datos del usuario y, al guardar, los actualiza por su id con `sp_update`. La `FechaModificacion` se actualiza sola en MySQL.
  
