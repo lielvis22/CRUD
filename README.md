@@ -43,29 +43,27 @@ El objetivo del laboratorio es aplicar:
  
 ## 🖥️ Capturas y Problemas Resueltos
  
-> Guarda tus capturas en la carpeta `capturas/` y reemplaza las rutas de abajo.
- 
+<img width="600" alt="Vista general" src="https://github.com/user-attachments/assets/b8a453ff-7def-4d34-a460-f44134e9d55c" />
 ### Problema #1 – CREATE (crear registro)
 Formulario `Crud.aspx?op=C` que inserta un usuario nuevo con el procedimiento `insert_user`. Luego redirige al listado.
  
-![Crear registro](capturas/crear.png)
- 
+<img width="600" alt="Crear 1" src="https://github.com/user-attachments/assets/ade13be6-2eba-4083-8cf4-92d30682ddef" />
+<img width="600" alt="Crear 2" src="https://github.com/user-attachments/assets/455946e1-1159-4430-b884-972aba01b4d9" />
 ### Problema #2 – READ (listar y consultar)
 `Index.aspx` muestra el listado de usuarios activos en un `GridView` (`sp_load`). `Crud.aspx?op=R` consulta un usuario por su id con los campos bloqueados (`sp_read`).
  
-![Listado](capturas/listado.png)
-![Consultar](capturas/consultar.png)
- 
+<img width="600" alt="Listar" src="https://github.com/user-attachments/assets/b61489d5-8d9d-473a-9d84-397ffd81f75d" />
+<img width="600" alt="Consultar" src="https://github.com/user-attachments/assets/ce9a041b-c78f-485c-a62a-10873efdd92e" />
 ### Problema #3 – UPDATE (modificar registro)
 `Crud.aspx?op=U` carga los datos del usuario y, al guardar, los actualiza por su id con `sp_update`. La `FechaModificacion` se actualiza sola en MySQL.
  
-![Modificar](capturas/modificar.png)
- 
+<img width="600" alt="Modificar 1" src="https://github.com/user-attachments/assets/b039296a-901f-4e8a-a4ee-d0f3309f866c" />
+<img width="600" alt="Modificar 2" src="https://github.com/user-attachments/assets/0b10edf3-c459-470a-9539-e2c719965273" />
 ### Problema #4 – DELETE (eliminación lógica)
 Desde el listado, el botón Eliminar llama a `sp_delete`, que marca el registro con `Anulado = 0` y guarda `FechaEliminacion`. El usuario deja de aparecer en el listado pero no se borra de la base.
  
-![Eliminar](capturas/eliminar.png)
- 
+<img width="600" alt="Eliminar 1" src="https://github.com/user-attachments/assets/738c542a-a3de-44e0-8237-31a939afdd0a" />
+<img width="600" alt="Eliminar 2" src="https://github.com/user-attachments/assets/fa100cd9-98dc-46b9-be98-3c8c440cad05" />
 ---
  
 ## 📁 Estructura de Directorios
@@ -81,8 +79,8 @@ CRUD/
 │   │   └── Crud.aspx              # Formulario Crear / Consultar / Modificar (según ?op=C|R|U)
 │   └── Web.config                 # Cadena de conexión "conexion"
 ├── BaseDeDatos/
-│   └── crudasp.sql                # Base de datos, tabla, procedimientos y datos de prueba
-│   └── Dump20261123.sql           # Backup del Base de Datos
+│   ├── crudasp.sql                # Base de datos, tabla, procedimientos y datos de prueba
+│   └── Dump20261123.sql           # Backup de la base de datos
 └── README.md
 ```
  
